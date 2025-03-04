@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './pages/Home/Home';
+import Login from './components/Signin/Login';
+import SignUp from './components/Signin/SignUp';
 
 let childRoutes=[
   
@@ -13,6 +15,14 @@ let childRoutes=[
     element:<Home></Home>,
     path:'/'
   },
+  {
+    element:<Login></Login>,
+    path:'/login'
+  },
+  {
+    element:<SignUp></SignUp>,
+    path:'/signup'
+  }
   
   
  

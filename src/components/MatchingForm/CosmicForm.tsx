@@ -26,9 +26,9 @@ const CosmicForm: React.FC = () => {
         justifyContent="center"
         alignItems="center"
         minHeight="100vh"
-        bgcolor="rgb(14, 36, 47)"
+        // bgcolor="rgb(24, 58, 75)"
       >
-        <Box pl={3} bgcolor="#F5EFFF" maxWidth={900} mx="auto" borderRadius={2} sx={{
+        <Box pl={3}  maxWidth={900} mx="auto" borderRadius={2} sx={{
     boxShadow: "4px 4px 30px rgba(255, 255, 255, 0.8)", // Custom shadow
   }}>
           <Grid container spacing={3} alignItems="center">
@@ -105,7 +105,9 @@ const CosmicForm: React.FC = () => {
               </Grid>
 
               <Box mt={3} textAlign="center">
-                <Button variant="contained" sx={{ backgroundColor: "rgb(11, 50, 70)", color: "white" }} size="large">
+                <Button variant="contained"
+                //  sx={{ backgroundColor: "rgb(11, 50, 70)", color: "white" }}
+                  size="large">
                   MATCH KUNDALI
                 </Button>
               </Box>
